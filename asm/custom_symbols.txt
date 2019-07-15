@@ -1,0 +1,14 @@
+800036ac scale_viewport_get
+80003704 fix_textbox
+80003710 fix_cursor
+8000371c fix_title_background
+80003734 fix_mansion_bg_right
+80003744 fix_mansion_bg_left_height
+80003750 fix_debug_text_pos
+80003770 fix_hudson_stop
+8000377c fix_credits_invisiblity
+80003788 fix_mountain
+800037c0 fix_mountain_slice_texcoord
+800037cc fix_bomber_mansion_stat_height
+800037dc fix_bomber_mansion_left_stat_height
+800037ec fix_stat_velocity
