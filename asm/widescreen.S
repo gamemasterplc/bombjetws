@@ -3613,6 +3613,10 @@ put_int_as_float(SCREEN_WIDTH) //Width of Stage Select Dark Filter
 put_int_as_float(SCREEN_HEIGHT/2) //Height of Stage Select Dark Filter Halves
 put_int_as_float(SCREEN_HEIGHT) //Bottom of Stage Select Dark Filter
 
+.org 0x804A1C6C
+.include "defines.inc"
+write_aspect //Write Aspect Ratio for World Victory Screen
+
 .org 0x804A2268
 .include "defines.inc"
 write_aspect //Write Aspect Ratio for Battle Victory Screen
